@@ -2,5 +2,4 @@ venv/
 .vs/
 __pycache__/
 *.pyc
-data/
-result/
+
