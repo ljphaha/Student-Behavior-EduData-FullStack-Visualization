@@ -38,26 +38,9 @@ XGBoost 归因分析 (XGBoost Attribution) 训练梯度提升树模型预测学�
 
 知识关联图谱 (Knowledge Graph) 构建题目与知识点之间的网络拓扑图，直观展示题库的知识点覆盖分布。
 
-提交时间线 (Timeline Analysis) 带有时间轴播放功能的动态柱状图，展示各班级随时间变化的提交活跃度。
+时间线 (Timeline Analysis) 带有时间轴播放功能的动态柱状图，展示各班级随时间变化的提交活跃度。
 
-📂 项目结构
-Plaintext
 
-.
-├── app.py                  # 主程序入口 (集成 Flask 与 Dash)
-├── requirements.txt        # 项目依赖库列表
-├── data/                   # 原始数据文件夹 (CSV)
-├── ml/                     # 机器学习与可视化核心模块
-│   ├── __init__.py
-│   ├── Dataquality.py      # 数据质量检查工具
-│   ├── knowledge_heatmap.py
-│   ├── radar_chart.py
-│   ├── _3d_scatter.py      # 聚类分析模块
-│   ├── Xgboost.py          # 预测模型模块
-│   ├── network.py          # 图谱分析模块
-│   └── timeline.py         # 时序分析模块
-├── result/                 # 系统自动生成的 HTML 图表
-└── frontend/               # 前端静态资源
 🚀 安装与运行
 1. 克隆仓库
 下载本项目到本地环境。
